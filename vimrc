@@ -6,3 +6,8 @@ execute pathogen#infect()
 
 " Aesthetics
 colorscheme solarized
+
+
+" Basics
+syntax enable
+
