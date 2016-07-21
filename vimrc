@@ -95,7 +95,7 @@ nnoremap <leader>j VipJ
 nnoremap <leader>q gqip
 nnoremap <leader>f 1z=
 nnoremap <leader>s ]s
-nnoremap <leader>u :!git pull website master && git commit -am 'Standard commit.' && git push website master<CR><CR>
+nnoremap <leader>u :!git pull website master && git commit -am 'vim' && git push website master<CR><CR>
 nnoremap <leader>p :!git commit -am 'Standard commit.' && git push origin master<CR><CR>
 nnoremap <leader>d :read !date<CR>
 nnoremap <leader>r :!!<CR>
@@ -109,7 +109,7 @@ nnoremap <leader>c :nohl<CR>
 nnoremap <leader>pa :set nopaste!<CR>
 nnoremap <leader>rc :so $MYVIMRC<CR>
 nnoremap <leader>b :BlogSave publish<CR>
-"nnoremap <leader>r :! /Users/daniel/Documents/whup.sh<CR><CR>
+"nnoremap <leader>r :! /Users/brian/Documents/whup.sh<CR><CR>
 nnoremap <leader>h :set ft=HTML<CR><CR>
 
 " Control shortcuts
